@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("checkout the code"){
             steps{
-                sh 'git clone https://github.com/Ramkhushi/java-code1.git'
+                sh 'git clone https://github.com/ishika-dev/pipeline.git'
             }
             
         }
